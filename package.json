@@ -1,6 +1,6 @@
 {
   "name": "remote-abap-compiler-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remote ABAP compilation",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.wdf.sap.corp/d054287/remote-abap-compiler-cli.git"
+    "url": "git+https://github.com/cohomology/remote-abap-compiler-cli.git"
   },
   "keywords": [
     "SAP",
@@ -28,9 +28,9 @@
   "author": "SAP",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.wdf.sap.corp/d054287/remote-abap-compiler-cli/issues"
+    "url": "https://github.com/cohomology/remote-abap-compiler-cli/issues"
   },
-  "homepage": "https://github.wdf.sap.corp/d054287/remote-abap-compiler-cli#readme",
+  "homepage": "https://github.com/cohomology/remote-abap-compiler-cli#readme",
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.0",
     "@oclif/test": "^1.2.4",
@@ -51,7 +51,7 @@
     "@oclif/plugin-help": "^2.2.0",
     "@types/read": "0.0.28",
     "read": "^1.0.7",
-    "remote-abap-compiler": "^2.0.0"
+    "remote-abap-compiler": "^2.0.1"
   },
   "oclif": {
     "commands": "./lib/commands",
