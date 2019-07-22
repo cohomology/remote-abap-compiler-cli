@@ -16,7 +16,7 @@ are returned.
 
 ## Basic ABAP template
 
-```
+```abap
 class main definition.
   public section.
     methods run importing out type ref to if_oo_adt_classrun_out.
